@@ -17,6 +17,5 @@ def find_it(seq):
             pass
         
     for i in my_dict:
-        #x = my_dict[i] % 2
         if my_dict[i] % 2 != 0:
             return i
